@@ -1,7 +1,7 @@
 # TODO: Change the name of the org 
 org: truongnhon
-app: serverless-todo-app-1
-service: serverless-todo-app-1
+app: serverless-todo-app-truongnhon-1
+service: serverless-todo-app-truongnhon-1
 frameworkVersion: '3.34.0'
 
 plugins:
@@ -36,14 +36,6 @@ provider:
   logs:
     # Enable API Gateway logs
     restApi: true
-
-  iam:
-    role:
-      statements:
-        - Effect: Allow
-          Action:
-            - xray:PutTelemetryRecords
-          Resource: "*"
 
 custom:
   documentation:
