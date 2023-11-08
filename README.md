@@ -1,3 +1,37 @@
+Git repo: https://github.com/nhonvo/project4
+
+# Deployed Server:
+This server has been deployed at https://d1kzutwwq4.execute-api.us-east-1.amazonaws.com/dev/
+
+Please use this link to test the API!
+
+## Functionality of the application
+
+This application will allow creating/removing/updating/fetching TODO items. Each TODO item can optionally have an attachment image. Each user only has access to TODO items that he/she has created.
+
+![image-20231108230447270](README.assets/image-20231108230447270.png)
+
+
+# Monitoring
+## Distributed tracing
+
+X-Ray tracing has been set up
+
+![image-20231108230629011](README.assets/image-20231108230629011.png)
+
+
+## Logging
+
+The starter code came with a configured [Winston](https://github.com/winstonjs/winston) logger that creates [JSON formatted](https://stackify.com/what-is-structured-logging-and-why-developers-need-it/) log statements. It is used to write log messages like this:
+
+![image-20231108230706434](README.assets/image-20231108230706434.png)
+
+![image-20231108230734899](README.assets/image-20231108230734899.png)
+
+# Serverless TODO
+
+To implement this project, you need to implement a simple TODO application using AWS Lambda and Serverless framework. Search for all comments starting with the `TODO:` in the code to find the placeholders that you need to implement.
+
 # Serverless TODO
 
 To implement this project, you need to implement a simple TODO application using AWS Lambda and Serverless framework. Search for all comments starting with the `TODO:` in the code to find the placeholders that you need to implement.
